@@ -4,17 +4,46 @@
 }
  
 body {
-	background: #FFFFFF url(images/img01.jpg) repeat-x;
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size: 13px;
-	color: #7F7772;
+margin: 0px;
+padding: 0px;
+background: #eee;
+	
 }
+.banner2{
+
+	width: 100%;
+   height: 120px;
+   background: #f4743c;
+ } 
+ .banner2.binlik{
+  
+  width: 1000px;
+  height: 120px;
+  margin: 0px auto;
+ }
+ .banner2-sol{
+   width: 500px;
+   height: 120px;
+   float: left;
+ }
+ .banner2-sag{
+   width: 500px;
+   height: 120px;
+   float: right;
+   text-align: right;
+   line-height: 150px;
+ }
+ .temizleme{
+   width: 100%;
+   clear: both;
+
+ }
  
 h1, h2, h3 {
 	margin-bottom: 15px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-weight: normal;
-	color: #333333;
+	color: darkred;
 }
  
 h1 {
@@ -23,16 +52,19 @@ h1 {
  
 h2 {
 	font-size: 152%;
+
 }
  
 h3 {
 	font-size: 100%;
 	font-weight: bold;
+
 }
  
 p, ul, ol {
 	margin-bottom: 15px;
 	line-height: 1.6em;
+
 }
  
 ul, ol {
@@ -225,4 +257,3 @@ a:visited {
  
 #footer a:hover {
 	color: #FFFFFF;
-}
