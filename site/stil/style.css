@@ -1,0 +1,137 @@
+
+
+body{
+   margin: 0px;
+   padding: 0px;
+   background: #eee;
+
+
+}
+.banner{
+
+	width: 100%;
+   height: 120px;
+   background: #f4743c;
+ } 
+ .banner-binlik{
+  
+  width: 1200px;
+  height: 120px;
+  margin: 0px auto;
+ }
+ .banner-sol{
+   width: 600px;
+   height: 120px;
+   float: left;
+ }
+ .banner-sag{
+   width: 600px;
+   height: 120px;
+   float: right;
+   text-align: right;
+   line-height: 140px;
+  
+ }
+ .temizle{
+   width: 100%;
+   clear: both;
+
+ }
+ .sosyal-medya-icon{
+  width: 40px;
+  transition: 0,3s;
+ }
+ .sosyal-medya-icon:hover{
+  width: 50px;
+  cursor: pointer;
+
+ }
+ .menu{
+  width: 100½;
+  height: 45px;
+  background: #d7502b;
+ }
+ .menu-tab{
+  width: 100px;
+  height: 45px;
+  display: inline-block;
+  line-height: 45px;
+  text-align: center;
+  font-weight:bold;
+  color: black;
+  transition: 0,3s;
+ }
+ .menu-tab:hover{
+  color: #fff;
+  cursor: pointer;
+  background: #c12525;
+ }
+ .menu-binlik{
+  width: 1200px;
+  height: 45px;
+  margin: 0px auto;
+ }
+ .içerik{
+  width: 1200px;
+  height: auto;
+  margin: 0px auto;
+ }
+ .içerik-sol{
+  width: 870px;
+  height: auto;
+  background: #A9A9A9;
+  float: left;
+  padding: 15px;
+ }
+ .içerik-sag{
+  width: 300px;
+  height: 900px;
+  background: #00FFE3;
+  float: right;
+ }
+ .makale{
+  width: 100%;
+  height: auto;
+  background: #FF7F50;
+  border: 1px solid #cccccc;
+  margin-bottom: 15px;
+ }
+ .makale-resim{
+  margin: 15px;
+  float: left;
+
+ }
+ .makale-baslık{
+margin-top: 20px;
+font-size: 15px;
+font-weight:bold;
+color: #D72F32;
+cursor: pointer;
+
+ }
+.makale-yazı{
+  margin-top: 15px;
+  margin-right: 15px;
+}
+.önceki{
+  width: 85px;
+  height: 45px;
+  background: yellow;
+  padding: 3px 7 px;
+  text-align: center;
+  line-height: 45px;
+  float: left;
+  cursor: pointer;
+  margin: 15px;
+}
+.sonraki{
+  width: 85px;
+  height: 45px;
+  background: yellow;
+  padding: 3px 7 px;
+  text-align: center;
+  line-height: 45px;
+  float: right;
+  cursor: pointer;
+  margin: 15px;
+}
