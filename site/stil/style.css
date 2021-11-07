@@ -135,3 +135,73 @@ cursor: pointer;
   cursor: pointer;
   margin: 15px;
 }
+.arama-motoru{
+float: right;
+margin-top: 15px;
+}
+.textbox-tasarım{
+  width: 180px;
+  height: 29px;
+  border-radius: 4px 0px 0px 4px;
+  border: 1px solid #000000;
+  padding: 0px 5px;
+
+}
+.buton-tasarım{
+  width: 35px;
+  height: 29px;
+  border-radius: 0px 4px 4px 0px;
+  cursor: pointer;
+  margin-left: -5px;
+  background: orange;
+  color: #fff;
+}
+.etiket-havuzu{
+  float: left;
+  margin-top: 25px;
+  margin-left: 75px;
+  width: 226px;
+}
+.etiket-havuzu-baslık{
+  font-size: 18px;
+  color: #c32123;
+  border-bottom: 2px solid #C32123;
+  padding-bottom:8px ;
+  margin-bottom: 8px;
+
+}
+.etiket{
+  display: inline-block;
+  background: #FFFFFF;
+  padding: 5px 8px;
+  margin-bottom:5px ;
+  border-radius: 4px;
+  border: 1px solid #D4D4D4;
+  color: #666666;
+}
+.etiket:hover{
+  color: #000000;
+  cursor: pointer;
+  border: 1px solid #D4D4D4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
